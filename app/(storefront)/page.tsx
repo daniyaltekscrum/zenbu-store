@@ -4,6 +4,7 @@ import { ArrowRight, MessageCircle, ShoppingBag, Sparkles, ShieldCheck, Truck, S
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
+import { ProductCard } from "@/components/storefront/product-card";
 import { WHATSAPP_PHONE, getWhatsAppGeneralUrl, getWhatsAppProductInquiryUrl } from "@/lib/constants";
 import { getProducts, getCategories } from "@/lib/catalog";
 
@@ -142,74 +143,9 @@ export default async function HomePage() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6">
           {products.map((product) => (
-            <Card
-              key={product.id}
-              glass
-              className="glass-panel-hover rounded-3xl border-black/5 dark:border-white/10 group flex flex-col justify-between overflow-hidden"
-            >
-              <CardContent className="p-4 space-y-3 flex-1 flex flex-col justify-between">
-                <div>
-                  {/* Product Image */}
-                  <div className="w-full h-48 rounded-2xl relative overflow-hidden bg-white dark:bg-zinc-900 border border-black/5 dark:border-white/5 p-4 flex items-center justify-center">
-                    <Image
-                      src={product.image}
-                      alt={product.title}
-                      fill
-                      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                      className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
-                    />
-                    <Badge
-                      variant="glass"
-                      className="absolute top-2.5 left-2.5 text-[10px] text-emerald-700 dark:text-emerald-400 font-semibold"
-                    >
-                      {product.brand}
-                    </Badge>
-                  </div>
-
-                  {/* Details */}
-                  <div className="pt-3">
-                    <span className="text-[11px] font-medium text-emerald-600 dark:text-emerald-400 uppercase tracking-wider">
-                      {product.category.name}
-                    </span>
-                    <h3 className="text-sm font-bold line-clamp-2 mt-1 group-hover:text-emerald-600 transition-colors">
-                      {product.title}
-                    </h3>
-                  </div>
-                </div>
-
-                {/* Price & Action */}
-                <div className="pt-3 border-t border-black/5 dark:border-white/5 flex items-center justify-between">
-                  <div>
-                    <div className="text-base font-extrabold text-zinc-900 dark:text-white">
-                      Rs. {product.price.toLocaleString()}
-                    </div>
-                    {product.compareAtPrice && (
-                      <div className="text-xs text-zinc-400 line-through">
-                        Rs. {product.compareAtPrice.toLocaleString()}
-                      </div>
-                    )}
-                  </div>
-
-                  <a
-                    href={getWhatsAppProductInquiryUrl(product.title, product.sourceUrl)}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Order this product on WhatsApp"
-                  >
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="gap-1.5 text-xs text-emerald-700 dark:text-emerald-400 border-emerald-500/30 hover:bg-emerald-50 dark:hover:bg-emerald-950/40"
-                    >
-                      <MessageCircle className="w-3.5 h-3.5" />
-                      Order
-                    </Button>
-                  </a>
-                </div>
-              </CardContent>
-            </Card>
+            <ProductCard key={product.id} product={product} />
           ))}
         </div>
       </section>

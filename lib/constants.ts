@@ -6,10 +6,21 @@ export const STORE_DESCRIPTION =
 export const WHATSAPP_PHONE = "+92 312 0813050";
 export const WHATSAPP_PHONE_CLEAN = "923120813050";
 
-export const getWhatsAppOrderUrl = (orderId: string, total: number) => {
-  const text = encodeURIComponent(
-    `Hi Zenbu.Store! I would like to inquire about my order #${orderId} (Total: Rs. ${total.toLocaleString()}).`
-  );
+export const getWhatsAppOrderUrl = (
+  orderId: string,
+  itemsOrTotal: string[] | number,
+  total?: number,
+  deliveryAddress?: string,
+  customerPhone?: string
+) => {
+  let message = "";
+  if (Array.isArray(itemsOrTotal)) {
+    const lines = itemsOrTotal.join("\n- ");
+    message = `Hi Zenbu.Store! I have placed order #${orderId}.\n\nItems:\n- ${lines}\n\nTotal: Rs. ${total?.toLocaleString()}\nAddress: ${deliveryAddress || "N/A"}\nPhone: ${customerPhone || "N/A"}\n\nPlease confirm my Cash on Delivery order!`;
+  } else {
+    message = `Hi Zenbu.Store! I would like to inquire about my order #${orderId} (Total: Rs. ${itemsOrTotal.toLocaleString()}).`;
+  }
+  const text = encodeURIComponent(message);
   return `https://wa.me/${WHATSAPP_PHONE_CLEAN}?text=${text}`;
 };
 
