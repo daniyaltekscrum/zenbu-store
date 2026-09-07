@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+dist
+build
+*.tsbuildinfo
+.env*
+!.env.example
+skills-lock.json
+.agents
+.claude
+agent
+*.md
