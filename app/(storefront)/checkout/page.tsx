@@ -1,9 +1,24 @@
 import { CheckoutForm } from "@/components/storefront/checkout-form";
 import { ShieldCheck, Truck, Lock } from "lucide-react";
+import { STORE_NAME } from "@/lib/constants";
 
 export const metadata = {
-  title: "Checkout (Cash on Delivery) — Zenbu.Store",
+  title: "Checkout (Cash on Delivery) — Safe & Fast",
   description: "Complete your Cash on Delivery order in Pakistan. Safe, fast, and no advance payment required.",
+  alternates: {
+    canonical: "/checkout",
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+  openGraph: {
+    title: `Checkout (Cash on Delivery) — ${STORE_NAME}`,
+    description: "Complete your Cash on Delivery order in Pakistan. Safe, fast, and sealed packages.",
+    url: "/checkout",
+    siteName: STORE_NAME,
+    images: ["/logo/1.png"],
+  },
 };
 
 export default function CheckoutPage() {

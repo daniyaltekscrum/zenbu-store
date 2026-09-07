@@ -116,8 +116,15 @@ export function ProductDetailView({ product, relatedProducts }: ProductDetailVie
                       ? "border-emerald-500 ring-2 ring-emerald-500/20 shadow-xs"
                       : "border-black/10 dark:border-white/10 opacity-70 hover:opacity-100"
                   }`}
+                  aria-label={`${product.title} photo ${idx + 1}`}
                 >
-                  <Image src={img} alt="" fill sizes="80px" className="object-contain p-2" />
+                  <Image
+                    src={img}
+                    alt={`${product.title} - View ${idx + 1}`}
+                    fill
+                    sizes="80px"
+                    className="object-contain p-2"
+                  />
                 </button>
               ))}
             </div>

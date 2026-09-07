@@ -5,8 +5,42 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { ProductCard } from "@/components/storefront/product-card";
-import { WHATSAPP_PHONE, getWhatsAppGeneralUrl, getWhatsAppProductInquiryUrl } from "@/lib/constants";
+import { WHATSAPP_PHONE, getWhatsAppGeneralUrl, getWhatsAppProductInquiryUrl, STORE_NAME } from "@/lib/constants";
 import { getProducts, getCategories } from "@/lib/catalog";
+import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/storefront/seo-jsonld";
+
+export const metadata = {
+  title: "Zenbu.Store — Trusted Baby Nutrition, Diapers & Healthcare in Pakistan",
+  description:
+    "Buy 100% original powdered milk formulas (Pediasure, Meiji, Enfagrow) and premium baby diapers with Cash on Delivery nationwide. Zero advance payment required.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Zenbu.Store — Trusted Baby Nutrition, Diapers & Healthcare",
+    description:
+      "Buy 100% original powdered milk formulas (Pediasure, Meiji, Enfagrow) and baby diapers with Cash on Delivery across Pakistan.",
+    url: "/",
+    siteName: STORE_NAME,
+    images: [
+      {
+        url: "/logo/1.png",
+        width: 800,
+        height: 800,
+        alt: "Zenbu.Store Pakistan",
+      },
+    ],
+    locale: "en_PK",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Zenbu.Store — Baby Nutrition & Care Delivered",
+    description:
+      "Original powdered milk formulas & baby diapers with Cash on Delivery across Pakistan.",
+    images: ["/logo/1.png"],
+  },
+};
 
 export default async function HomePage() {
   const [products, categories] = await Promise.all([
@@ -16,8 +50,11 @@ export default async function HomePage() {
 
   return (
     <main className="relative overflow-hidden">
+      <OrganizationJsonLd />
+      <WebSiteJsonLd />
       {/* Background Soft Gradient Mesh */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[500px] bg-gradient-to-tr from-emerald-500/10 via-teal-500/5 to-transparent blur-3xl -z-10 pointer-events-none" />
+
 
       {/* Hero Section */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-16 sm:pt-24 sm:pb-24">
