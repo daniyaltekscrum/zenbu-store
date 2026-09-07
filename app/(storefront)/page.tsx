@@ -83,7 +83,7 @@ export default async function HomePage() {
             <Link href="/products">
               <Button size="lg" className="rounded-2xl gap-2 font-semibold shadow-lg shadow-zinc-900/10 dark:shadow-emerald-950/40">
                 <ShoppingBag className="w-4 h-4" />
-                Browse 30+ Products
+                Browse Catalog
                 <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
@@ -126,12 +126,12 @@ export default async function HomePage() {
           <div>
             <h2 className="text-2xl font-bold tracking-tight">Shop by Department</h2>
             <p className="text-sm text-zinc-500 dark:text-zinc-400">
-              Explore our core baby nutrition, diapers, and care collections.
+              Explore baby nutrition, diapers, sexual wellness, and adult care collections.
             </p>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {categories.map((cat) => (
             <Link key={cat.id} href={`/category/${cat.slug}`}>
               <Card
@@ -175,7 +175,7 @@ export default async function HomePage() {
             href="/products"
             className="text-sm font-semibold text-emerald-600 hover:text-emerald-700 dark:text-emerald-400 flex items-center gap-1 group"
           >
-            See all 30+ items
+            See all products
             <ArrowRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
           </Link>
         </div>

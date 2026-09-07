@@ -55,6 +55,9 @@ export function StorefrontNavbar() {
             <Link href="/category/baby-diapers" className="hover:text-foreground transition-colors">
               Diapers & Pants
             </Link>
+            <Link href="/category/sexual-wellness" className="hover:text-foreground transition-colors">
+              Sexual Wellness
+            </Link>
             <Link href="/category/adult-care" className="hover:text-foreground transition-colors">
               Adult Care
             </Link>
@@ -117,7 +120,7 @@ export function StorefrontNavbar() {
                 onClick={() => setMobileMenuOpen(false)}
                 className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium hover:bg-black/5 dark:hover:bg-white/5"
               >
-                <Grid className="w-4 h-4 text-emerald-500" /> All 31 Products
+                <Grid className="w-4 h-4 text-emerald-500" /> All Products
               </Link>
               <Link
                 href="/category/baby-nutrition"
@@ -132,6 +135,13 @@ export function StorefrontNavbar() {
                 className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium hover:bg-black/5 dark:hover:bg-white/5"
               >
                 Baby Diapers & Pants
+              </Link>
+              <Link
+                href="/category/sexual-wellness"
+                onClick={() => setMobileMenuOpen(false)}
+                className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium hover:bg-black/5 dark:hover:bg-white/5"
+              >
+                Sexual Wellness (100% Discreet COD)
               </Link>
               <Link
                 href="/category/adult-care"

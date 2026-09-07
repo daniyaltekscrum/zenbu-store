@@ -556,5 +556,329 @@
       "slug": "baby-diapers",
       "image": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&q=80"
     }
+  },
+  {
+    "url": "https://www.dvago.pk/p/durex-extended-pleasure-3s",
+    "slug": "durex-extended-pleasure-3s",
+    "title": "Durex Extended Pleasure Condoms (Pack of 3)",
+    "price": 480,
+    "compare_at_price": 550,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/Durex%20Extended%20Pleasure%20Condoms%20%281%20Pack%20%3D%203Pcs%29.png",
+    "description": "Durex Extended Pleasure condoms contain a special climax-control lubricant inside the teat that helps him last longer, extending intimacy and mutual enjoyment. Made from natural rubber latex, dermatologically tested, and 100% electronically inspected for maximum reliability. Sourced from authorized distribution and delivered in 100% discreet, plain-box packaging with nationwide Cash on Delivery.",
+    "brand": "DUREX",
+    "sku": "SKU-SW-100",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/pulse-ribbed-dotted-delay-3s",
+    "slug": "pulse-ribbed-dotted-delay-3s",
+    "title": "Pulse Ribbed & Dotted Delay Condoms (Pack of 3)",
+    "price": 240,
+    "compare_at_price": 280,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/19749.png",
+    "description": "Pulse Ribbed & Dotted Delay condoms combine raised texture ribs and stimulating dots with special delaying lubricant to enhance sensation for her while prolonging performance for him. High-grade natural latex crafted to international safety specifications. Dispatched in unbranded, discreet packaging across Pakistan with Cash on Delivery.",
+    "brand": "PULSE",
+    "sku": "SKU-SW-101",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/ok-dotted-condoms",
+    "slug": "ok-dotted-condoms",
+    "title": "OK Dotted Textured Condoms (Pack of 3)",
+    "price": 160,
+    "compare_at_price": 200,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/dvago-products-images/ok-dotted-condoms.webp",
+    "description": "OK Dotted condoms feature hundreds of raised tactile dots distributed evenly across the shaft for elevated stimulation and passion during intimate moments. Electronically tested to ensure foolproof safety, elasticity, and dependable protection. Plain brown box delivery with zero advance payment.",
+    "brand": "OK",
+    "sku": "SKU-SW-102",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/lifestyle-endurance-delay-1s",
+    "slug": "lifestyle-endurance-delay-1s",
+    "title": "Lifestyles Endurance Climax Control Condoms (Pack of 3)",
+    "price": 420,
+    "compare_at_price": 480,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/dvago-products-images/lifestyle-endurance-delay-1s.webp",
+    "description": "Lifestyles Endurance condoms are engineered with climax-control lubricant to help sustain staying power without sacrificing sensation. Features ultra-smooth silicone lubrication and premium natural latex. Delivered in complete privacy with tamper-evident, unmarked boxes via Cash on Delivery.",
+    "brand": "LIFESTYLES",
+    "sku": "SKU-SW-103",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/durex-invisible-extra-thin-condom-pack-of-3",
+    "slug": "durex-invisible-extra-thin-condom-pack-of-3",
+    "title": "Durex Invisible Extra Thin Condoms (Pack of 3)",
+    "price": 540,
+    "compare_at_price": 620,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/1000000015985.png",
+    "description": "Durex Invisible represents the thinnest condom line designed by Durex, crafted to maximize sensitivity and skin-to-skin feeling while upholding rigorous safety benchmarks. Lubricated, straight-walled, and teat-ended for effortless application. Shipped in confidential, plain packaging with COD across Pakistan.",
+    "brand": "DUREX",
+    "sku": "SKU-SW-104",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/durex-play-tingle-lube-50ml-gel",
+    "slug": "durex-play-tingle-lube-50ml-gel",
+    "title": "Durex Play Tingle Sensual Lubricant Gel (50ml)",
+    "price": 1250,
+    "compare_at_price": 1450,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/1000000015980.png",
+    "description": "Durex Play Tingle is a silky, water-based personal lubricant that produces an exciting tingling and warming sensation on contact. Non-greasy, non-staining, and safe to use with all natural latex and polyisoprene condoms. Formulated to alleviate intimate dryness and heighten pleasure. Shipped in completely discreet parcels.",
+    "brand": "DUREX",
+    "sku": "SKU-SW-105",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/bareback-ultra-thin-3s",
+    "slug": "bareback-ultra-thin-3s",
+    "title": "Bareback Ultra Thin Sensitive Condoms (Pack of 3)",
+    "price": 320,
+    "compare_at_price": 370,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/dvago-products-images/bareback-ultra-thin-3s.webp",
+    "description": "Bareback Ultra Thin condoms are designed for couples desiring an authentic, natural sensation without compromising dependable defense. Crafted from premium natural latex with smooth lubrication for a seamless, natural feel. Guaranteed discreet nationwide shipping with Cash on Delivery.",
+    "brand": "BAREBACK",
+    "sku": "SKU-SW-106",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/durex-extended-pleasure-condom-pack-of-12",
+    "slug": "durex-extended-pleasure-condom-pack-of-12",
+    "title": "Durex Extended Pleasure Condoms (Economy Pack of 12)",
+    "price": 1650,
+    "compare_at_price": 1890,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/1000000015982.png",
+    "description": "Durex Extended Pleasure 12-pack value box provides long-lasting climax control with benzocaine-infused inner lubricant. Perfect for ongoing protection with genuine Durex quality and dermatological assurance. Delivered in confidential, plain brown boxes to any city in Pakistan.",
+    "brand": "DUREX",
+    "sku": "SKU-SW-107",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/durex-play-very-cherry-lubricant-50ml",
+    "slug": "durex-play-very-cherry-lubricant-50ml",
+    "title": "Durex Play Very Cherry Flavoured Pleasure Lube (50ml)",
+    "price": 1250,
+    "compare_at_price": 1450,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/1000000016464.png",
+    "description": "Durex Play Very Cherry is an enticing, sugar-free fruity personal lubricant that adds a sweet aroma and smooth glide to foreplay and intercourse. Water-soluble, condom-compatible, and gentle on intimate skin. Shipped anonymously in unmarked outer packaging.",
+    "brand": "DUREX",
+    "sku": "SKU-SW-108",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/rough-rider-studded-3s",
+    "slug": "rough-rider-studded-3s",
+    "title": "Rough Rider Studded Premium Condoms (Pack of 3)",
+    "price": 380,
+    "compare_at_price": 440,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/dvago-products-images/rough-rider-studded-3s.jpg",
+    "description": "Rough Rider Studded condoms feature hundreds of prominent rubber studs engineered specifically to maximize friction and sensory thrill. Made from superior natural rubber latex with reservoir tip and gentle lubricant. Sourced from authorized suppliers and dispatched in plain discreet packaging.",
+    "brand": "ROUGH RIDER",
+    "sku": "SKU-SW-109",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/pulse-dotted-premium",
+    "slug": "pulse-dotted-premium",
+    "title": "Pulse Dotted Premium Pleasure Condoms (Pack of 3)",
+    "price": 240,
+    "compare_at_price": 280,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/19748.png",
+    "description": "Pulse Dotted condoms provide intense tactile pleasure with raised microspheres throughout the surface. Rigorously tested against international ISO quality metrics for tear-resistance and security. Order online with full privacy and Cash on Delivery.",
+    "brand": "PULSE",
+    "sku": "SKU-SW-110",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/pulse-delay-premium-3s",
+    "slug": "pulse-delay-premium-3s",
+    "title": "Pulse Delay Climax Control Condoms (Pack of 3)",
+    "price": 240,
+    "compare_at_price": 280,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/19750.png",
+    "description": "Pulse Delay condoms incorporate an active prolonging formula on the interior tip to help men manage timing and enhance intimate endurance. Form-fitting contour for natural comfort. Dispatched in unmarked parcels with zero advance payment.",
+    "brand": "PULSE",
+    "sku": "SKU-SW-111",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/ok-gold-skin-to-skin-3s",
+    "slug": "ok-gold-skin-to-skin-3s",
+    "title": "OK Gold Skin-to-Skin Ultra Sensitive Condoms (Pack of 3)",
+    "price": 190,
+    "compare_at_price": 230,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/dvago-products-images/ok-gold-skin-to-skin-3s.webp",
+    "description": "OK Gold Skin-to-Skin condoms deliver an ultra-fine latex membrane for elevated closeness and authentic skin warmth. Pre-lubricated with a reservoir tip, offering dependable contraceptive and infection protection. Shipped confidentially across Pakistan.",
+    "brand": "OK",
+    "sku": "SKU-SW-112",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/durex-extra-safe-condom-pack-of-3",
+    "slug": "durex-extra-safe-condom-pack-of-3",
+    "title": "Durex Extra Safe Thick Barrier Condoms (Pack of 3)",
+    "price": 480,
+    "compare_at_price": 550,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/1000000010056.png",
+    "description": "Durex Extra Safe condoms are slightly thicker and pre-lubricated with extra silicone lubricant to offer ultimate peace of mind and maximum reassurance without compromising intimacy comfort. Sourced from genuine Durex stock and delivered in sealed, plain packaging.",
+    "brand": "DUREX",
+    "sku": "SKU-SW-113",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/josh-classic-7s",
+    "slug": "josh-classic-7s",
+    "title": "Josh Classic Natural Condoms (Pack of 7x4 / 28 Pieces)",
+    "price": 520,
+    "compare_at_price": 600,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/classic%207x4.jpg",
+    "description": "Josh Classic condoms offer dependable everyday protection with smooth natural latex and premium lubrication. This multi-pack provides unbeatable value, containing four 7-packs (28 total condoms) sealed for freshness. Shipped in private, discrete packaging with COD nationwide.",
+    "brand": "JOSH",
+    "sku": "SKU-SW-114",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/durex-invisible-extra-thin-condom-pack-of-12",
+    "slug": "durex-invisible-extra-thin-condom-pack-of-12",
+    "title": "Durex Invisible Extra Thin Condoms (Economy Pack of 12)",
+    "price": 1850,
+    "compare_at_price": 2100,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/15984.png",
+    "description": "Durex Invisible Extra Thin in a 12-condom economy pack provides the highest sensitivity in Durex latex engineering. Maximizes heat and sensory transmission while upholding the highest British and European safety standards. Dispatched in plain discreet boxing.",
+    "brand": "DUREX",
+    "sku": "SKU-SW-115",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/skyn-orignal-non-latex-3s",
+    "slug": "skyn-orignal-non-latex-3s",
+    "title": "Skyn Original Polyisoprene Non-Latex Condoms (Pack of 3)",
+    "price": 890,
+    "compare_at_price": 990,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/23171.jpg",
+    "description": "Skyn Original condoms are made from revolutionary SKYNFEEL™ polyisoprene—a completely non-latex synthetic material that is noticeably softer and more natural to the touch. Ideal for users with latex allergies or sensitivities. Shipped discreetly with zero advance payment.",
+    "brand": "SKYN",
+    "sku": "SKU-SW-116",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
+  },
+  {
+    "url": "https://www.dvago.pk/p/durex-mutual-pleasure-3s",
+    "slug": "durex-mutual-pleasure-3s",
+    "title": "Durex Mutual Pleasure Ribbed & Delay Condoms (Pack of 3)",
+    "price": 510,
+    "compare_at_price": 590,
+    "image": "https://dvago-assets.s3.ap-southeast-1.amazonaws.com/ProductsImages/mutual%203%20pc.png",
+    "description": "Durex Mutual Pleasure condoms are designed for synchronized intimacy: ribs and raised dots speed her up while Performa™ climax-delaying lubricant inside slows him down. Tested dermatologically for safety and biocompatibility. Packaged in plain, discreet cartons with COD.",
+    "brand": "DUREX",
+    "sku": "SKU-SW-117",
+    "stock": 50,
+    "category": {
+      "id": "c0000000-0000-0000-0000-000000000014",
+      "name": "Sexual Wellness",
+      "slug": "sexual-wellness",
+      "image": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800&q=80"
+    }
   }
 ]
